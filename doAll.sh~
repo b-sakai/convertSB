@@ -1,0 +1,8 @@
+cd getFCWBswcs/
+Rscript convertJFRC2toFCWB.r glomName.name
+cd ../convertFCWBtoFBTBF
+python convertFCWBtoFBTBF.py
+python swcToVtk.py
+cd ..
+echo "converted swc files in convertFCWBtoFBTBF/fbtbf/"
+echo "visualized vtk files in convertFCWBtoFBTBF/vtk/" 
