@@ -21,6 +21,7 @@ R上に公開されているライブラリなどを用いて標準脳間で細�
 
 fbtbf座標系からFCWB座標系に細胞形態ファイル(*.swc)を変換するプログラム
 （Rライブラリ不要、アフィン変換）
+
 →　convertFBTBFtoFCWB
 
 
@@ -28,12 +29,14 @@ fbtbf座標系からFCWB座標系に細胞形態ファイル(*.swc)を変換す�
 
 FCWB座標系からFBTBF座標系に細胞形態ファイル(*.swc)を変換するプログラム
 （Rライブラリ不要、アフィン変換）
+
 →　convertCWBtoFBTBF
 
 ### FAFB to FCWB
 
 FAFB座標系からFCWB座標系に細胞形態ファイル(*.swc)を変換するプログラム
 （要Rライブラリ）
+
 →　convertCWBtoFBTBF
 
 ### FAFB to fbtbf
@@ -42,7 +45,8 @@ FAFB座標系からFCWB座標系に細胞形態ファイル(*.swc)を変換す�
 
 ### JRC2018Unisex to FCWB
 
-https://github.com/saalfeldlab/template-building/wiki/Usage-examples参照
+https://github.com/saalfeldlab/template-building/wiki/Usage-examples 参照
+
 （誤ってプログラムを消去したので現存しない）
 
 ### JRC2018Unisex to fbtbf
@@ -52,4 +56,5 @@ https://github.com/saalfeldlab/template-building/wiki/Usage-examples参照
 ### visualize
 
 細胞形態ファイルを可視化するプログラム（FCWB座標系のものであれば脳領域と重ねて表示が可能）
+
 →  visualizeFCWB
